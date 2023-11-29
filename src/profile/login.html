@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<style>
+ h4{
+      color: #333; /* Text color */
+      font-size: 20px; /* Font size */
+      font-family: Arial, sans-serif;  
+      text-align:center;
+ }
+ body{
+        background-image: url('assets/bg_guvi.png');
+     }
+
+
+</style>
+<body>
+
+<div class="container center-form">
+    <div class="row">
+        <div class="col-md-6 mx-auto custom-form">
+
+    <!--===== Registration Form ============-->
+    <h3 class="mt-3 text-success text-center">Guvi Task Login Form</h3>
+    <p class="text-center" id="msg"></p>
+    <form id="loginForm" method="post">
+    
+      <div class="mb-3 mt-3">
+          <input type="email" class="form-control" placeholder="Email Address" name="emailAddress">
+        </div>
+        <div class="mb-3 mt-3">
+          <input type="password" class="form-control" placeholder="Password" name="password">
+        </div>
+        <div class="container">
+          <div class="row align-items-end justify-content-center">
+              <div class="col text-center">
+                <button type="submit" class="btn btn-primary">Login</button>
+              </div>
+          </div>
+         
+          
+            <div class="row align-items-end justify-content-center">
+                <div class="col text-center">
+                  <h4 text-align: center>Not Yet Registered?</h4>
+                  <button class="btn btn-primary mx-2" onclick="location.href='register.html'">Register</button>
+                </div>
+            </div>
+      </div>
+
+      
+    </form>
+        <!--===== Registration Form ============-->
+
+        </div>
+        <div class="col-sm-8">
+
+        </div>
+    </div>
+ 
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="login.js"></script>
+</body>
+</html>
