@@ -3,7 +3,7 @@
 $hostname     = "localhost";
 $username     = "root";
 $password     = "";
-$databasename = "codingstatus";
+$databasename = "guvi_task";
 // Create connection
 $conn = mysqli_connect($hostname, $username, $password, $databasename);
 
